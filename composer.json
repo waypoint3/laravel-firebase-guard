@@ -1,18 +1,19 @@
 {
-    "name": "leeds-digital/laravel-firebase-guard",
+    "name": "waypoint3/laravel-firebase-guard",
     "type": "library",
     "require": {
         "kreait/laravel-firebase": "^5.8"
     },
     "autoload": {
         "psr-4": {
-            "LeedsDigital\\LaravelFirebaseGuard\\": "src/"
+            "Waypoint3\\LaravelFirebaseGuard\\": "src/"
         }
     },
     "require-dev": {
         "pestphp/pest": "^2.34",
         "mockery/mockery": "^1.6",
-        "pestphp/pest-plugin-laravel": "^2.4"
+        "pestphp/pest-plugin-laravel": "^2.4",
+        "pestphp/pest-plugin-type-coverage": "^2.8"
     },
     "config": {
         "allow-plugins": {
