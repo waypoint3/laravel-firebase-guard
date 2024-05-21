@@ -1,0 +1,22 @@
+{
+    "name": "leeds-digital/laravel-firebase-guard",
+    "type": "library",
+    "require": {
+        "kreait/laravel-firebase": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeedsDigital\\LaravelFirebaseGuard\\": "src/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34",
+        "mockery/mockery": "^1.6",
+        "pestphp/pest-plugin-laravel": "^2.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
