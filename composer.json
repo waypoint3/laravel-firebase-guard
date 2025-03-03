@@ -2,7 +2,7 @@
     "name": "waypoint3/laravel-firebase-guard",
     "type": "library",
     "require": {
-        "kreait/laravel-firebase": "^5.8"
+        "kreait/laravel-firebase": "^5.8 || ^6.0"
     },
     "autoload": {
         "psr-4": {
